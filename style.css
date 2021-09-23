@@ -156,35 +156,49 @@ footer {
     height: inherit;}
 
 
-
+@media(max-width: 385px){
+    .header{
+        justify-content: space-around;
+    
+    }
+.second-img-container{
+    padding-right: 2%;
+}
+.circle-btn{
+    bottom: -14vh;
+}
+}
 
 @media only screen and (max-width: 800px){
 
+    .first-img-container{
+        row-gap: 14vw;
+    }
+    .second-img-container{
+        padding-left: 0%;
+        row-gap: 14vw;
+        margin-top: -8%;
+    }
     .page{
         width: 100vw;
-        
-       
+      
     }
     .header{
         display: flex;
         padding-top: 32%;
-       flex-wrap: wrap
-        
-        ;
+        justify-content: space-around;
+       flex-wrap: wrap;
     }
     h2{
         font-size: 2em;
     }
     
 
-    
-    
-
 .logo{
     
     width: 119px;
     height: 28px;
-    left:40vw;
+    left:31vw;
     padding-top: 6%;
     transform: scale(1);
     position: absolute;
@@ -200,7 +214,7 @@ footer {
     .circle-btn{
         z-index: 0;
         position: relative;
-        bottom: -2%;
+       
         
     }
 .footer h1{
